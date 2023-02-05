@@ -2,6 +2,9 @@ body{
     font-family:sans-serif;
     margin: 0;
     background: #fcfcfc;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
 }
 a{
     text-decoration: none;
@@ -47,10 +50,7 @@ nav a:hover{
 box-sizing: border-box;
 }
 footer{
-position: absolute;
-bottom: 0;
-left: 0;
-right: 0;
+margin-top: auto;
 background: #000;
 height: auto;
 width: 100vm;
